@@ -79,3 +79,32 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-header {
+   font-size: 36px;
+   font-weight: 800;
+   color: #1f2937; 
+   margin-bottom: 32px;
+}
+
+.info-subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 200px;
+    gap: 50px;
+}
+
+.info-image {
+    border: 5px solid darkblue;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
