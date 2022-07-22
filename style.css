@@ -1,10 +1,21 @@
 .header {
     display: flex;
-    
+    justify-content: space-between;
+    padding: 16px 50px;
+    background-color: #1f2937;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 8px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;    
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
