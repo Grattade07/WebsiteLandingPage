@@ -85,6 +85,7 @@ ul {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding:  40px 0px;
 }
 
 .info-header {
@@ -97,14 +98,39 @@ ul {
 .info-subtext {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 200px;
-    gap: 50px;
+    justify-content: center;
+    max-width: 100px;
+    gap: 80px;
+    padding-bottom: 50px;
 }
 
 .info-image {
-    border: 5px solid darkblue;
+    border: 5px solid rgb(113, 167, 185);
     height: 100px;
     width: 100px;
-    background-color: red;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 800px;
+}
+
+.quote-author {
+    font-weight: 800;
+    align-self: end;
+    font-size: 24px;
 }
