@@ -7,10 +7,9 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 16px 350px;
+    justify-content: space-between;
+    padding: 16px 450px;
     background-color: #1f2937;
-    gap: 600px;
 }
 
 ul {
@@ -32,7 +31,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px 350px;
+    padding: 100px 450px;
     gap: 30px;
     background-color: #1f2937;
 }
@@ -76,7 +75,7 @@ ul {
 .hero-image {
     background-color: #e5e7eb;
     height: 250px;
-    width: 650px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
